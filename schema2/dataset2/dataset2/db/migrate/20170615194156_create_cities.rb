@@ -3,7 +3,7 @@ class CreateCities < ActiveRecord::Migration[5.1]
     create_table :cities do |t|
       t.string :name
       t.integer :year_founded
-      t.inteher :province_id
+      t.integer :province_id
 
       t.timestamps
     end
